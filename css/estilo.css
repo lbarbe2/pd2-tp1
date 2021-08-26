@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+	background-color: #000000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+
+p{
+	color: #ffffff;
+}
+
+.ejercicio {
+		color: #ffffff;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+
+/*-------------------------*/
+
+
+.filtro-grayscale{
+	filter: grayscale(1);
+}
+
+.filtro-invert{
+	filter: invert(1);
+}
+
+
+.multifondo {
+	width: 1000px;
+	min-height: 800px;
+	background-color: green;
+	background: 
+	url(../img/poster-nms.jpg) left top no-repeat,
+	url(../img/poster2-nms.jpg) right top no-repeat,
+	url(../img/poster3-nms.jpg) right bottom no-repeat;
+}
+
+#columnas{
+	width: 960px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px solid #ffffff;
+	border-color: #ff0000;
+	border-width: 2px;
+	border-style: solid;
+}
+
+#border{
+	border: 2px solid #FEDFE1;
+	border-radius: 50px;
+}
+
+.transparencia, .sombra, .degradado {
+	width: 960px;
+	height: 640px;
+	background-color: green;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 320px;
+	color: rgb(255, 255, 255);
+}
+
+.transparencia{
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.degradado{
+background-image: linear-gradient(rgb(2,78,116) 0%, rgb(0,21,25) 50%, rgb(0,2,3) 100%);
+}
+
+.sombra{
+	text-shadow: 5px 5px 5px #000;
+}
